@@ -17,6 +17,12 @@ Gestire il "Database" (in questo caso un semplice array) e la visualizzazione di
     <title>Google F.A.Q.</title>
 </head>
 <body>
-
+    <?php 
+        foreach($faq as $key){
+            foreach($key as $q_a){
+                echo $q_a;
+            }
+        }
+    ?>
 </body>
 </html>
